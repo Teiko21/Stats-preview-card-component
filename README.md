@@ -6,7 +6,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -31,6 +30,7 @@ Users should be able to:
 - HTML5
 - CSS5
 - Flexbox
+
 ## Author
 
 - Frontend Mentor - [@Teiko21](https://www.frontendmentor.io/profile/Teiko21)
