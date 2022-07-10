@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution Here](https://teiko21.github.io/Stats-preview-card-component)
-- Live Site URL: [Website Here](https://teiko21.github.io/Stats-preview-card-component/)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/stats-preview-card-component-main-E4MwmMNU6z)
+- Live Site URL: [Add live site URL here](https://teiko21.github.io/Stats-preview-card-component/)
 
 ## My process
 
