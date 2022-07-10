@@ -1,0 +1,177 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+    color: aliceblue;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.element1{
+
+    background-color: hsl(244, 38%, 16%);
+    height: 446px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.title{
+
+    padding-top: 55px;
+    font-family: 'Lexend Deca';
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+.yellow{
+
+    color: hsl(277, 64%, 61%);
+}
+
+.description{
+
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 60px;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+
+.analytics{
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    align-items: center;
+}
+
+.companies{
+
+    padding-left: 60px;
+    font-family: 'Lexend Deca';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.templates{
+
+    padding-left: 60px;
+    font-family: 'Lexend Deca';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.queries{
+
+    padding-left: 60px;
+    font-family: 'Lexend Deca';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#companies, #templates ,#queries{
+
+    font-size: 13px;
+    font-family: 'Inter';
+    font-weight: normal;
+    color: hsl(0, 0%, 100%, 0.6);
+}
+
+.element2{
+
+    height: auto;
+    width: auto;
+}
+
+.image_mobile{
+
+    display: none;
+}
+
+img{
+
+    border-radius: 0 10px 10px 0;
+    filter: opacity(0.6) drop-shadow(0 0 0 purple)
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container{
+
+        flex-direction: column-reverse;
+    }
+
+    .image_desktop{
+
+        display: none;
+    }
+
+    .image_mobile{
+
+        display: contents;
+    }
+
+    img{
+
+        border-radius: 10px 10px 0 0;
+    }
+
+    .element1{
+
+        width: 365px;
+        height: 560px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .element2{
+
+        padding-left: 300px;
+        width: 960px;
+    }
+    
+    .title{
+
+        text-align: center;
+        padding-left: 0;
+        padding-top: 35px;
+    }
+
+    .description{
+
+        text-align: center;
+        padding-left: 0;
+        font-size: 13.5px;
+        margin: 0 45px;
+    }
+
+    .analytics{
+
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 250px;
+    }
+
+    .companies{
+
+        padding-left: 0;
+    }
+
+    .templates, .queries{
+
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+}
